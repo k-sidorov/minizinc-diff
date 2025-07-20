@@ -41,7 +41,7 @@ array[1..n_int] of var 1..5: y;
 {constraint}
 
 solve satisfy;
-output [\"x=\" ++ show(x) ++ \" y=\" ++ show(y)];
+output ["x=" ++ show(x) ++ " y=" ++ show(y)];
 "#,
         constraint = constraint_code
     );
