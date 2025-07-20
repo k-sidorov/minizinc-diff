@@ -31,7 +31,7 @@ fn generate_model(path: &Path, constraint: &str) -> std::io::Result<PathBuf> {
     };
 
     let model_content = format!(
-        r#"
+        r#"include "alldifferent.mzn";
 int: n_bin;
 array[1..n_bin] of var 0..1: x;
 
