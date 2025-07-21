@@ -34,7 +34,7 @@ This creates multiple model/data pairs in the given directory. You can then fuzz
 ### Compare Solver Outputs
 
 ```bash
-minizinc-diff test \
+minizinc-diff diff \
   ./minizinc-fuzz-testing/market_split/model.mzn \
   ./minizinc-fuzz-testing/market_split/2_25_100_1.dzn \
   gecode \
