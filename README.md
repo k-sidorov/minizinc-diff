@@ -46,7 +46,7 @@ This compares solutions found by Gecode's default and `--free-search` configurat
 You can also run it in a Slurm job or redirect output as needed:
 
 ```bash
-minizinc-diff test model.mzn data.dzn or-tools gecode > results.log
+minizinc-diff diff model.mzn data.dzn or-tools gecode > results.log
 ```
 
 ## ❓ Exit Codes
@@ -65,7 +65,7 @@ minizinc-diff test model.mzn data.dzn or-tools gecode > results.log
 
 ## ✉ License
 
-This project is licensed under the terms of the **GNU General Public License v3.0**. See `LICENSE` for details.
+This project is licensed under the terms of the **GNU General Public License v3.0**. See `COPYING` for details.
 
 
 ## 💼 Contributions
